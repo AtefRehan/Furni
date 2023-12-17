@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../../../../images/Desktop\ -\ 10.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #222222;
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+}
+
+.login-section,
+.login-content input {
+  background-color: #fff8ee;
+}
+.login-content button,
+.login-content a {
+  color: #fff8ee;
+}
+.login-section,
+.img-section {
+  width: 50%;
+  height: 100%;
+}
+.container,
+.login-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  border-radius: 10px;
+  border: 1px solid #beb6a9;
+}
+.login-section {
+  position: relative;
+  float: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.img-section {
+  background-image: url(../../../../images/login-Img.jpeg);
+  float: right;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.clear {
+  clear: both;
+}
+.login-content input {
+  padding: 11px;
+  border: 1px solid #b8b3ad;
+  border-radius: 15px;
+  width: 80%;
+  margin: 8px 0px;
+  margin-bottom: 10px;
+}
+.login-content input:focus {
+  border-color: #b8b3ad !important;
+}
+.login-content {
+  width: 80%;
+  height: 80%;
+}
+.login-content h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.login-content p {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.login-content label {
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.login-content button {
+  padding: 12px;
+  width: 25%;
+  text-transform: uppercase;
+  background-color: #222222;
+  border: none;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.login-content a {
+  margin-top: 61px;
+  display: inline-block;
+  color: #7c6236;
+}
+.correct {
+  border: solid 2px green !important;
+}
+.wrong {
+  border: solid 2px red !important;
+}
+#msg{
+
+  color:red;
+  font-size: 15px;
+  
+}
+/*  */
+.login-section i{
+  font-size: 40px;
+  margin: 20px;
+  color: black;
+  z-index: 3;
+  cursor: pointer;
+  font-size: larger;
+}

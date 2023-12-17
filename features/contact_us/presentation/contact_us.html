@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/contact_us.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    rel="stylesheet"
+  />
+    <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="module">import {} from "../data/contactus_script.js"</script>
+  </head>
+  <body>
+
+
+    <div class="contact-us-container"></div>
+    <div class="container">
+      <div class="img-section">
+        <i class="fa-solid close fa-arrow-left" id="arrowLeft"></i>
+        </div>
+      <div class="contact-us-section">
+        <div class="contact-us-content">
+          <h2>contact us</h2>
+          <p>
+            feel free to contact us anytime. We're here to assist you and happy to answer any questions you may have.
+          </p>
+          <form action="">
+            <label for="">name</label><br />
+            <input type="text" placeholder="enter your name" /><br />
+            <label for="" >email</label><br />
+            <input type="text" placeholder="yourname@gmail.com" id="mail"/><br />
+            <label for="">subject</label><br />
+            <textarea name="" id="msg" cols="10" rows="10"></textarea><br />
+            <button type="submit" id="sendMsg">contact us </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

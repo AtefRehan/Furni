@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Inter", sans-serif;
+}
+
+
+.nav a:hover,
+.nav :hover {
+    background-color: white;
+    color: black !important;
+}
+.nav a
+{
+    color: white !important;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.nav_header-content li:nth-child(3):hover,
+.nav_header-content li:nth-child(5):hover{
+    cursor: pointer;
+    background-color: white;
+    color: black ;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+ {
+}
+
+
+
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+.nav li {
+    display: inline-block;
+    
+}
+.nav ul {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav .nav_header-content {
+    width: 30%;
+    float: left;
+    margin: 30px;
+}
+
+.nav .nav_products {
+    width: 20%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 5px;
+    text-align: right;
+    margin-right: 50px;
+}
+.nav_products li{
+    margin-right: 10px;
+}
+.nav_products li i:hover{
+    font-size: x-large;
+    cursor: pointer;
+    color: moccasin;
+}
+
+.nav .nav_products .Highlight {
+    background-color: white;
+    color: black !important;
+    font-weight: 400;
+
+}
+nav .nav_products .Highlight {
+    padding: 5px 10px; !important;
+    /*border-radius: 25px;*/
+    color: moccasin;
+
+}
+
+.nav .nav_header-content h3 {
+    font-size: 28px;
+}
+
+
+.header {
+    padding: 16px;
+    height: 100vh;
+    background-image: url("../../../../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 1 */
+
+.header-content .content {
+    margin-top: 25%;
+    margin-left: 32px;
+}
+
+.header-content a {
+    font-size: 21px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 8px 24px;
+}
+ #login-button:hover {
+
+    background-color: moccasin;
+     padding: 5px 15px;
+}
+
+
+.header-content h1 {
+    font-size: 64px;
+    width: 480px;
+    color: white;
+}
+
+/* Section 2 */
+.main .products {
+    padding: 0 32px;
+
+}
+
+.main .products .products__hero {
+    padding: 16px 0;
+}
+
+.main .products .products__hero h2 {
+    font-size: 36px;
+    width: 25%;
+}
+
+
+.main .products .products_view div {
+    margin-bottom: 20px;
+}
+
+.main .products .products_view div h3 {
+    font-size: 22px;
+}
+
+.main .products .products_view div p {
+    color: #a7835b;
+    display: inline-block;
+}
+
+
+
+.main .products .products_view div img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.main .products .products_view div img:hover{
+    cursor: pointer;
+
+}
+
+
+.main .products_view .product {
+    width: 25%;
+    float: left;
+    margin: 10px 20px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+.products_view .product button{
+    color: white !important;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}

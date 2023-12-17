@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../../../../images/Desktop\ -\ 10.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #222222;
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+}
+
+.signUp-section,
+.signUp-content input {
+  background-color: #fff8ee;
+}
+.signUp-content button,
+.signUp-content a {
+  color: #fff8ee;
+}
+.signUp-section,
+.img-section {
+  width: 50%;
+  height: 100%;
+}
+.container,
+.signUp-content {
+  position: absolute;
+  left: 10%;
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  border-radius: 10px;
+  border: 1px solid #beb6a9;
+  top: 10%;
+}
+.signUp-section {
+  position: relative;
+  float: left;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.img-section {
+  background-image: url(../../../../images/login-Img.jpeg);
+  float: right;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.clear {
+  clear: both;
+}
+.signUp-content input {
+  padding: 11px;
+  border: 1px solid #b8b3ad;
+  border-radius: 15px;
+  width: 80%;
+  margin: 8px 0px;
+  margin-bottom: 10px;
+}
+.signUp-content input:focus {
+  border-color: #b8b3ad !important;
+}
+.signUp-content {
+  width: 80%;
+  height: 80%;
+  top: 5%;
+}
+.signUp-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.signUp-content p {
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.signUp-content label {
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.signUp-content button {
+  padding: 12px;
+  width: 25%;
+  text-transform: uppercase;
+  background-color: #222222;
+  border: none;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.signUp-content a {
+  margin-top: 2px;
+  display: inline-block;
+  color: #7c6236;
+  margin-top: 15px;
+}
+.correct {
+  border: solid 2px green !important;
+  /* border: none; */
+}
+.wrong {
+  border: solid 2px red !important;
+}
+
+input {
+  background-color: #fff8ee !important;
+}
+#msg {
+  color: red;
+  font-size: 13;
+}
+.signUp-section i{
+  font-size: 40px;
+  margin: 20px;
+  color: black;
+  z-index: 3;
+  cursor: pointer;
+  font-size: larger;
+}

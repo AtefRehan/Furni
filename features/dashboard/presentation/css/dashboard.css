@@ -1,0 +1,187 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff8ee;
+  font-family: "Inter", sans-serif;
+}
+
+.dashboard-container{
+  position: relative;
+  
+}
+ .dashboard-product-item  {
+  margin-bottom: 20px;
+  width: 25%;
+  float: left;
+  margin: 10px 20px;
+  margin-left: 80px;
+}
+
+ .dashboard-products-container .dashboard-product-item   h3 {
+  font-size: 22px;
+}
+.dashboard-products-container .dashboard-product-item  p {
+  color: #a7835b;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.dashboard-products-container .dashboard-product-item   img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
+.clear{
+  clear: both;
+}
+.dashboard-product-item button{
+  color: white !important;
+  background-color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: none;
+  display: inline-block;
+  
+  bottom: 5px;
+  right: 10px;
+}
+.dashboard-header{
+  text-align: center;
+  margin: 20px;
+ 
+  text-transform: uppercase;
+}
+
+.add-product-container button{
+  color: white !important;
+  background-color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  text-transform: capitalize;
+  
+}
+.close-btn{
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  font-size: 30px;
+}
+.edit-btn{
+  float: left;
+}
+.delete-btn{
+  float: right;
+}
+.buttons-container{
+  margin-top: 10px;
+}
+/*  add product  form                */
+.add-product-light-box,.edit-product-light-box{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0,0.8) !important;
+
+}
+.add-product-form-container,.edit-product-form-container{
+ 
+  margin-top: 30px;
+  position: relative;
+  color: white;
+  
+}
+.add-product-form-container form , .edit-product-form-container form{
+ 
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  border: 2px solid white;
+ padding: 60px;
+ background-color: white;
+ color: black;
+ border-radius: 10px;
+}
+.form-left-part{
+  
+  width: 50%;
+  float: left;
+}
+.form-right-side{
+ 
+  width: 50%;
+  float: right;
+}
+
+.add-product-form-container input , .edit-product-form-container input  {
+  padding: 11px;
+  border: 1px solid #b8b3ad;
+  border-radius: 15px;
+  width: 80%;
+  margin: 8px 0px;
+  margin-bottom: 10px;
+}
+.add-product-form-container input:focus,.edit-product-form-container input:focus  {
+  border-color: #b8b3ad !important;
+}
+.add-product-form-container label , .edit-product-form-container label  {
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.add-product-form-container button , .edit-product-form-container button{
+  padding: 12px;
+  width: 25%;
+  text-transform: uppercase;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  margin-top: 45px;
+  color:white;
+  cursor: pointer;
+}
+.add-product-form-container h2 ,.edit-product-form-container h2{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.form-close-btn i{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.form-close-btn{
+  position: absolute;
+  right: 50px;
+  top:50px;
+}
+
+/* to hide the forms or displaying them  */
+
+
+.add-product-light-box{
+  display: none;
+}
+
+.dashboard-container a{
+  color: black;
+}
